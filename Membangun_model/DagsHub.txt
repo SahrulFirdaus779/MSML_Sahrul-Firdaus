@@ -1,0 +1,8 @@
+# Set env MLflow ke DagsHub (isi kredensial sendiri; jangan commit rahasia)
+# Contoh (PowerShell):
+# $Env:MLFLOW_TRACKING_URI="https://dagshub.com/<owner>/<repo>.mlflow"
+# $Env:MLFLOW_TRACKING_USERNAME="<username>"
+# $Env:MLFLOW_TRACKING_PASSWORD="<token_personal>"
+
+# Setelah set env di atas, jalankan untuk advanced logging:
+# python modelling_tuning.py --use-dagshub-init

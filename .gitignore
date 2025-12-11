@@ -20,6 +20,7 @@ mlruns/
 
 # VS Code settings
 .vscode/
+Workflow-CI/
 
 # Jupyter checkpoints
 .ipynb_checkpoints/
